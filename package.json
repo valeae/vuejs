@@ -5,15 +5,24 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {
+    "@saeris/vue-spinners": "^1.0.8",
+    "chart.js": "2.9.2",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "numeral": "^2.0.6",
+    "serve-static": "^1.15.0",
+    "tailwindcss": "^1.1.2",
+    "vue": "^2.6.14",
+    "vue-chartkick": "0.6.1",
+    "vue-router": "3.5.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
